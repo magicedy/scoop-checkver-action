@@ -6,7 +6,7 @@ ENV PATH $PATH:$SCOOP_HOME/bin
 
 RUN apk add --no-cache git p7zip \
     && mkdir -p $SCOOP_HOME \
-    && git clone https://github.com/ScoopInstaller/Scoop.git $SCOOP_HOME
+    && git clone https://github.com/magicedy/Scoop.git $SCOOP_HOME
 
 COPY entrypoint.sh /entrypoint.sh
 
