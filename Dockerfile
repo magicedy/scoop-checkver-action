@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/powershell:lts-7.2-alpine-3.14
 
 ENV SCOOP_HOME /scoop/apps/scoop/current
-ENV SCOOP_DEBUG 1
+#ENV SCOOP_DEBUG 1
 ENV PATH $PATH:$SCOOP_HOME/bin
 
 RUN apk add --no-cache git p7zip \
